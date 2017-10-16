@@ -78,7 +78,7 @@ body input:focus {
   flex-basis: 810px;
   background-color: #ffffff;
   margin-right: 30px;
-  min-height: 750px;}
+  min-height: 700px;}
 
 .current_order {
   flex-basis: 390px; }
