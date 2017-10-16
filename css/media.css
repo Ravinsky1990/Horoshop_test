@@ -1,6 +1,10 @@
 
 @media only screen and (max-width : 1024px){
     .current_order_wrap{
-        flex-basis: 100%;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .current_order_wrap{
+        margin-top: 70px;
     }
 }
