@@ -71,7 +71,7 @@ body input:focus {
   margin: auto;
   align-items: flex-start;
   justify-content: center;
-  flex-wrap: wrap;
+/*   flex-wrap: wrap; */
 }
 
 .create_order {
