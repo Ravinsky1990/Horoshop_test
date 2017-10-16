@@ -1,0 +1,333 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  padding: 0px 20px; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*main scss*/
+body {
+  background-color: #f9f7ee;
+  font-family: "Arial"; }
+
+body input {
+  padding-left: 10px;
+  outline: none; }
+
+textarea {
+  outline: none; }
+
+button {
+  outline: none; }
+
+body input:focus {
+  border: 1px solid #f50200; }
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.create_order {
+  flex-basis: 810px;
+  background-color: #ffffff;
+  margin-right: 30px;
+  min-height: 700px;}
+
+.current_order {
+  flex-basis: 390px; }
+
+.create_order_h2 {
+  font-size: 32px;
+  padding-bottom: 12px; }
+
+.create_order__tabs_wrapper {
+  position: relative; }
+
+.create_order__tabs_wrapper_span1, .create_order__tabs_wrapper_span2 {
+  display: inline-block;
+  padding: 10px;
+  background-color: #f9f7ee;
+  color: #2073b3;
+  text-decoration: underline; }
+
+.create_order__tabs_wrapper_span1 {
+  max-width: 120px;
+  font-size: 14px;
+  font-weight: bolder;
+  border: 1px solid #e0dfca;
+  border-bottom: none; }
+
+.create_order__tabs_wrapper_span2 {
+  max-width: 204px;
+  font-size: 14px;
+  font-weight: bolder;
+  border-top: 1px solid #e0dfca;
+  border-right: 1px solid #e0dfca; }
+
+.create_order__form_wrap__name_tel_city__h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 26px; }
+
+.name_tel_city__form_wrap__name__span, .name_tel_city__form_wrap__tel__span, .name_tel_city__form_wrap__city__span, .name_tel_city__form_wrap__email__span, .create_order__form_wrap__name_tel_city__addcomment__span, .create_order__form_wrap__delivery__typeof_delivery span, .create_order__form_wrap__delivery__storage_adress span, .create_order__form_wrap__pay__typeof_pay span {
+  font-size: 16px;
+  color: #8d8d8d;
+  display: inline-block;
+  margin-right: 31px; }
+
+.name_tel_city__form_wrap__name__input, .name_tel_city__form_wrap__tel__input, .name_tel_city__form_wrap__city__span__input, .name_tel_city__form_wrap__email__input, .create_order__form_wrap__delivery__typeof_delivery select, .create_order__form_wrap__delivery__storage_adress select, .create_order__form_wrap__pay__typeof_pay select {
+  width: 360px;
+  display: inline-block;
+  height: 27px;
+  border: 1px solid #acacac;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold; }
+
+.name_tel_city__form_wrap__tel__span {
+  margin-right: 81px; }
+
+.name_tel_city__form_wrap__city__span {
+  margin-right: 102px; }
+
+.name_tel_city__form_wrap__email__span {
+  margin-right: 78px; }
+
+.name_tel_city__form_wrap__email__addcoment {
+  display: block;
+  padding-left: 152px;
+  font-size: 14px;
+  color: #2073b3; }
+
+.name_tel_city__form_wrap__email__addcoment {
+  margin-top: 24px;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.create_order__form_wrap__name_tel_city__addcomment__span {
+  vertical-align: top;
+  margin-right: 40px; }
+
+.create_order__form_wrap__name_tel_city__addcomment textarea {
+  width: 368 px;
+  height: 78 px;
+  border: 1px solid #acacac;
+  border-radius: 3px;
+  resize: none;
+  font-size: 14px; }
+
+.create_order__form_wrap__delivery__typeof_delivery span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin-right: 58px; }
+
+.create_order__form_wrap__delivery__storage_adress span {
+  font-size: 16px;
+  margin-right: 45px; }
+
+.create_order__form_wrap__delivery__storage_adress select {
+  width: 596px; }
+
+.create_order__form_wrap__pay__typeof_pay span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin-right: 76px; }
+
+.create_order__form_wrap__button button {
+  width: 185px;
+  height: 32px;
+  border: none;
+  background-color: #5fbc1c;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 20px;
+  margin-left: 150px;
+  cursor: pointer; }
+
+.name_tel_city__form_wrap__name, .name_tel_city__form_wrap__tel, .name_tel_city__form_wrap__city, .name_tel_city__form_wrap__email {
+  margin-bottom: 20px; }
+
+.create_order__form_wrap__delivery__typeof_delivery {
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.create_order__form_wrap__delivery__storage_adress {
+  margin-bottom: 40px; }
+
+.create_order__form_wrap__pay__typeof_pay {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.create_order__form_wrap {
+  padding-top: 22px;
+  padding-left: 25px;
+  padding-bottom: 25px; }
+
+.create_order_h2 {
+  background-color: #f9f7ee; }
+
+.current_order {
+  flex-basis: 390px;
+  background-color: #ffffff;
+  padding-bottom: 20px; }
+
+.current_order_h1 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 17px;
+  border-bottom: 1px dashed #e0dfca; }
+
+.current_order_1__nameoforder1, .current_order_2__nameoforder2 {
+  display: block; }
+
+.current_order_1 {
+  display: flex;
+  border-bottom: 1px dashed #e0dfca;
+  padding-top: 19px;
+  padding-right: 23px; }
+
+.current_order_2 {
+  display: flex;
+  border-bottom: 1px dashed #e0dfca;
+  padding-top: 19px;
+  padding-right: 23px; }
+
+.current_order__current_order_1_img_wrap, .current_order__current_order_2_img_wrap {
+  padding-left: 23px;
+  padding-right: 19px;
+  padding-bottom: 13px; }
+
+.current_order_1__nameoforder1, .current_order_2__nameoforder2 {
+  color: #0072bc;
+  font-size: 14px; }
+
+.current_order__current_order_1__count, .current_order__current_order_2__count {
+  font-size: 14px;
+  color: #666666;
+  margin-right: 74px; }
+
+.current_order__current_order_1__total_price, .current_order__current_order_2__total_price {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+  display: inline-block;
+  margin-bottom: 20px; }
+
+.current_order_total {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 23px;
+  padding-top: 16px; }
+
+.create_order__form_wrap {
+  border: 1px solid #e0dfca;
+  min-height: 574px; }
+
+.create_order__tabs_wrapper {
+  background-color: #f9f7ee; }
+
+.current_order_wrap {
+  display: flex;
+  margin-top: 40px; }
+
+.positioned_wrap {
+  position: relative;
+  width: 100%; }
+
+.create_order__form_wrap {
+  position: absolute;
+  background: #ffffff;
+  width: 100%;
+  visibility: hidden; }
+
+.create_order__tabs_wrapper_span1, .create_order__tabs_wrapper_span2 {
+  cursor: pointer; }
+
+.active {
+  visibility: visible; }
+
+.active_bookmark {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none; }
+
+.create_order__form_wrap__name_tel_city__addcomment {
+  display: none; }
+
+.name_tel_city__form_wrap__city__example, .name_tel_city__form_wrap__email__toggle_block {
+  padding-left: 150px;
+  margin-top: 10px;
+  font-size: 11px;
+  display: none; }
+
+.name_tel_city__form_wrap__city__example span:last-child, .name_tel_city__form_wrap__email__toggle_block span:last-child {
+  color: #2073b3;
+  text-decoration: underline; }
+
+.current_order {
+  border: 1px solid #e0dfca; }
+
+.create_order__form_wrap__delivery__typeof_delivery span.selecter-selected{
+  font-weight: 400;
+}
+.create_order__form_wrap__delivery__storage_adress span.selecter-selected{
+  font-weight: 400;
+  color: #222222;
+  width: 500px;
+}
+.create_order__form_wrap__pay__typeof_pay span.selecter-selected{
+  font-weight: 400;
+  color: #222222;
+}
+
+/*# sourceMappingURL=style.css.map */

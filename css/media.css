@@ -1,0 +1,6 @@
+
+@media only screen and (max-width : 1024px){
+    .current_order_wrap{
+        flex-basis: 100%;
+    }
+}

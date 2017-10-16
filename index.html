@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/jquery.fs.selecter.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.fs.selecter.css">
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="create_order">
+            <h2 class="create_order_h2">Оформление заказа</h2>
+            <div class="create_order__tabs_wrapper">
+                <span class="create_order__tabs_wrapper_span1 active_bookmark">
+                    Я новый покупатель
+                </span><span class="create_order__tabs_wrapper_span2">
+                    Я зарегистрированный покупатель
+                </span>
+            </div>
+            <div class="positioned_wrap">
+                <div class="create_order__form_wrap active">
+                    <form action="">
+                        <div class="create_order__form_wrap__name_tel_city">
+                            <h1 class="create_order__form_wrap__name_tel_city__h1">Получатель заказа</h1>
+                            <div class="name_tel_city__form_wrap__name">
+                                <span class="name_tel_city__form_wrap__name__span">Имя и фамилия</span>
+                                <input type="text" class="name_tel_city__form_wrap__name__input">
+                            </div>
+                            <div class="name_tel_city__form_wrap__tel">
+                                <span class="name_tel_city__form_wrap__tel__span">Телефон</span>
+                                <input type="text" class="name_tel_city__form_wrap__tel__input">
+                            </div>
+                            <div class="name_tel_city__form_wrap__city">
+                                <span class="name_tel_city__form_wrap__city__span">Город</span>
+                                <input type="text" class="name_tel_city__form_wrap__city__span__input">
+                                <div class="name_tel_city__form_wrap__city__example">Например, <span>Киев</span></div>
+                                
+                            </div>
+                            <div class="name_tel_city__form_wrap__email">
+                                <span class="name_tel_city__form_wrap__email__span">Эл. почта</span>
+                                <input type="text" class="name_tel_city__form_wrap__email__input">
+                                <div class="name_tel_city__form_wrap__email__toggle_block">Если Вы хотите следить за статусом выполнеия заказа</div>
+                                <span class="name_tel_city__form_wrap__email__addcoment">Добавить комментарий к заказу</span>
+                            </div>
+                            <div class="create_order__form_wrap__name_tel_city__addcomment">
+                                <span class="create_order__form_wrap__name_tel_city__addcomment__span">Комментарий</span>
+                                <textarea name="" id="#" cols="30" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="create_order__form_wrap__delivery">
+                            <div class="create_order__form_wrap__delivery__typeof_delivery">
+                                <span>Доставка</span>
+                                <select>
+                                   <option>«Новая почта» — 25 грн</option>
+                                   <option>option_2</option>
+                                   <option>option_3</option>
+                                   <option>option_4</option>
+                               </select>
+                            </div>
+                            <div class="create_order__form_wrap__delivery__storage_adress">
+                                <span>Адрес склада</span>
+                                <select>
+                                   <option>Львов, Отделение №8 (до 30 кг): ул. Гетьмана И. Мазепы, 37</option>
+                                   <option>option_2</option>
+                                   <option>option_3</option>
+                                   <option>option_4</option>
+                               </select>
+                            </div>
+                        </div>
+                        <div class="create_order__form_wrap__pay">
+                            <div class="create_order__form_wrap__pay__typeof_pay">
+                                <span>Оплата</span>
+                                <select>
+                                   <option>наложеный платёж</option>
+                                   <option>option_2</option>
+                                   <option>option_3</option>
+                                   <option>option_4</option>
+                               </select>
+                            </div>
+                        </div>
+                        <div class="create_order__form_wrap__button">
+                            <button type="submit">Офомить заказ</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="create_order__form_wrap">
+                    <form action="">
+                        <div class="create_order__form_wrap__name_tel_city">
+                            <h1 class="create_order__form_wrap__name_tel_city__h1">Получатель заказа</h1>
+                            <div class="name_tel_city__form_wrap__email">
+                                <span class="name_tel_city__form_wrap__email__span">Эл. почта</span>
+                                <input type="text" class="name_tel_city__form_wrap__email__input">
+                                <span class="name_tel_city__form_wrap__email__addcoment">Добавить комментарий к заказу</span>
+                            </div>
+                            <div class="create_order__form_wrap__name_tel_city__addcomment">
+                                <span class="create_order__form_wrap__name_tel_city__addcomment__span">Комментарий</span>
+                                <textarea name="" id="" cols="30" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="create_order__form_wrap__delivery">
+                            <div class="create_order__form_wrap__delivery__typeof_delivery">
+                                <span>Доставка</span>
+                                <select>
+                                   <option>«Новая почта» — 25 грн</option>
+                                   <option>option_2</option>
+                                   <option>option_3</option>
+                                   <option>option_4</option>
+                               </select>
+                            </div>
+                            <div class="create_order__form_wrap__delivery__storage_adress">
+                                <span>Адрес склада</span>
+                                <select>
+                                   <option>Львов, Отделение №8 (до 30 кг): ул. Гетьмана И. Мазепы, 37</option>
+                                   <option>option_2</option>
+                                   <option>option_3</option>
+                                   <option>option_4</option>
+                               </select>
+                            </div>
+                        </div>
+                        <div class="create_order__form_wrap__pay">
+                            <div class="create_order__form_wrap__pay__typeof_pay">
+                                <span>Оплата</span>
+                                <select>
+                                   <option>наложеный платёж</option>
+                                   <option>option_2</option>
+                                   <option>option_3</option>
+                                   <option>option_4</option>
+                               </select>
+                            </div>
+                        </div>
+                        <div class="ik_select_link"><span class="ik_select_link_text"></span></div>
+                        <div class="ik_select_dropdown"><div class="ik_select_list"></div></div>
+                        
+                        <div class="create_order__form_wrap__button">
+                            <button type="submit">Офомить заказ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="current_order_wrap">
+            <div class="current_order">
+                <h1 class="current_order_h1">Ваш заказ</h1>
+                <div class="current_order_1">
+                    <div class="current_order__current_order_1_img_wrap">
+                        <img src="img/foto_1.png" alt="">
+                    </div>
+                    <div class="current_order_1__wrap">
+                        <a class="current_order_1__nameoforder1" href="">Цифровий фотоапарат Nikon D5100 kit (18-55 VR)</a>
+                        <span class="current_order__current_order_1__count">6 568 грн. × 1 шт.</span>
+                        <span class="current_order__current_order_1__total_price">6 568 грн.</span>
+                    </div>
+                </div>
+                <div class="current_order_2">
+                    <div class="current_order__current_order_2_img_wrap">
+                        <img src="img/foto_2.png" alt="">
+                    </div>
+                    <div class="current_order_2__wrap">
+                        <a class="current_order_2__nameoforder2" href="">MP3-плеер Apple iPod Touch 5Gen 32Gb blue</a>
+                        <span class="current_order__current_order_2__count">3 689 грн. × 1 шт</span>
+                        <span class="current_order__current_order_2__total_price">3 689 грн.</span>
+                    </div>
+                </div>
+                <div class="current_order_total">9 769,15 грн.</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jquery.fs.selecter.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
